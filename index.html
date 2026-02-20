@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Kevin López | Arquitectura Digital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>KL</h2>
+    <ul>
+      <li><a href="#sobre">Perfil</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h1>Kevin López Reyes</h1>
+  <h2>Desarrollador Web & Automatización de Procesos</h2>
+  <p>Creo soluciones digitales que optimizan procesos, automatizan tareas y permiten escalar negocios.</p>
+  <div class="hero-buttons">
+    <a href="#proyectos" class="btn">Ver Proyectos</a>
+    <a href="Kevin-Felipe-López-Reyes-cv-026.pdf" class="btn btn-secondary" download>Descargar CV</a>
+  </div>
+</section>
+
+
+<section id="sobre">
+  <h2>Resumen Profesional</h2>
+  <p>
+    Ingeniero en Informática con experiencia en arquitectura digital, ecommerce y análisis de datos.
+    Especializado en el diseño de soluciones escalables orientadas a optimización de procesos
+    y toma de decisiones basada en datos.
+  </p>
+  <p>
+    Experiencia en entornos corporativos y consultoría independiente,
+    implementando soluciones con WordPress, WooCommerce,
+    automatización mediante APIs y Google Cloud Platform.
+  </p>
+</section>
+
+<section id="proyectos">
+  <h2>Proyectos & Especialización</h2>
+
+  <h3 class="subtitulo">Especialización</h3>
+
+  <div class="card">
+    <h3>Arquitectura Ecommerce – WooCommerce</h3>
+    <p><strong>Enfoque:</strong> Conversión, UX y escalabilidad.</p>
+    <p>
+      Diseño e implementación de tiendas online optimizadas,
+      integración de pasarelas de pago y automatización post-venta.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Automatización & IA Aplicada</h3>
+    <p><strong>Tecnologías:</strong> APIs REST, Webhooks, Make, Zapier.</p>
+    <p>
+      Implementación de asistentes digitales y flujos automatizados
+      para clasificación de solicitudes y optimización comercial.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Business Intelligence – Google Cloud</h3>
+    <p><strong>Stack:</strong> BigQuery, SQL, Looker Studio.</p>
+    <p>
+      Análisis de grandes volúmenes de datos y desarrollo de dashboards ejecutivos
+      para soporte estratégico en toma de decisiones.
+    </p>
+  </div>
+
+
+<!--Proyectos Destacados-->
+  <h2>Proyectos Destacados</h2>
+
+    <div class="card">
+    <h3>Sistema de Gestión de Denuncias</h3>
+    <p>Desarrollo en WordPress + Elementor + ACF con seguimiento automático por código.</p>
+  </div>
+
+<div class="card">
+    <h3>Ecommerce Minimarket</h3>
+    <p>Tienda online con WooCommerce, pagos integrados y pedidos por WhatsApp.</p>
+  </div>
+
+  
+<div class="card">
+    <h3>Automatización para Bicicletería</h3>
+    <p>Propuesta de sistema digital para gestión de reparaciones y seguimiento de clientes.</p>
+  </div>
+  
+</section>
+
+
+
+
+<!--experiencia-->
+
+<section id="experiencia">
+  <h2>Experiencia Profesional</h2>
+
+  <div class="card">
+    <h3>Founder – Atom Studio</h3>
+    <p class="date">2018 – Actualidad</p>
+    <p>
+      Diseño de arquitecturas digitales, ecommerce y automatización de procesos
+      para negocios mediante WordPress, WooCommerce e integraciones API.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Analista BI – Nixe (Proyecto WOM)</h3>
+    <p class="date">2024</p>
+    <p>
+      Análisis de datos en Google BigQuery y desarrollo de reportes ejecutivos
+      en Looker Studio para soporte en toma de decisiones estratégicas.
+    </p>
+  </div>
+
+</section>
+
+<section id="stack">
+  <h2>Stack Tecnológico</h2>
+  <div class="stack-grid">
+    <div>
+      <h4>Desarrollo Web</h4>
+      <p>WordPress, Elementor Pro, HTML, CSS, JavaScript, Git</p>
+    </div>
+    <div>
+      <h4>Ecommerce</h4>
+      <p>WooCommerce avanzado, Checkout optimization, Automatización post-venta</p>
+    </div>
+    <div>
+      <h4>Automatización & IA</h4>
+      <p>APIs REST, Webhooks, Make, Zapier</p>
+    </div>
+    <div>
+      <h4>Cloud & Datos</h4>
+      <p>Google Cloud Platform, BigQuery, SQL, Looker Studio</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Email: Kevinlopezreyes1@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/kevin-lopez-reyes-47982a168</p>
+  <p>Teléfono: +56 9 4840 9194</p>
+</section>
+
+<footer>
+  <p>© 2026 Kevin Felipe López Reyes</p>
+</footer>
+
+<script>
+document.querySelectorAll("a[href^='#']").forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
+</body>
+</html>
